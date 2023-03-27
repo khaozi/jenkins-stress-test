@@ -22,7 +22,7 @@ node('master') {
     //    sh "ansible-playbook ${WORKSPACE}/backend/test_platform.yml  --tags='migrate' -e \"host=172.26.129.143\""
     //}
     stage('Deploy:restart') {
-        #sh "ansible-playbook ${WORKSPACE}/backend/test_platform.yml  --tags='restart' -e \"host=172.26.129.143\""
+        // sh "ansible-playbook ${WORKSPACE}/backend/test_platform.yml  --tags='restart' -e \"host=172.26.129.143\""
         echo  "deploy restart test"
     }
     //stage('Deploy:curl_test') {
